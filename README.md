@@ -24,7 +24,8 @@ A console-based Python application to manage and track personal expenses. Users 
 
 
 ## Example Usage
-```
+### Main Menu
+```text
 Welcome to Personal Expense Tracker!
 1. Add Expense
 2. View Expenses
@@ -32,6 +33,40 @@ Welcome to Personal Expense Tracker!
 4. Exit
 Enter your choice: 1
 ```
+### Adding an Expense
+```text
+Enter category (e.g., Food, Travel): Food
+Enter amount: 200
+Enter date (YYYY-MM-DD): 2024-12-23
+Expense added successfully!
+```
+### Viewing Expenses
+```text
+Expenses:
+Food:
+  1. Amount: 200.00 - Date: 2024-12-23
+
+Travel:
+  No expenses recorded.
+```
+### Monthly Summary
+```text
+Monthly Summary (December 2024):
+Total Expenses: 200.00
+By Category:
+  Food: 200.00
+  Travel: 0.00
+```
+
+
+## Project Structure
+```plaintext
+PersonalExpenseTracker/
+├── expense_tracker.py  # Main Python script
+├── expenses.txt        # Persistent storage file (created automatically)
+├── README.md           # Project documentation
+```
+
 
 ## Dependencies
 - Python 3.x
