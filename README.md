@@ -16,7 +16,7 @@ A console-based Python application to manage and track personal expenses. Users 
 
 2.Navigate to the project directory:
 
-    cd PersonalExpenseTracker
+    cd Personal-Expense-Tracker
 
 3.Run the application:
    
